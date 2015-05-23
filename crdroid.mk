@@ -1,8 +1,8 @@
 # Inherit CM common Phone stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/crdroid/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/crdroid/config/nfc_enhanced.mk)
 
 $(call inherit-product, device/sony/z3/full_z3.mk)
 
