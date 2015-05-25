@@ -4,8 +4,10 @@
     "target_path": "device/sony/shinano-common"
   },
   {
+    "remote": "CyanogenMod",
     "repository": "android_kernel_sony_msm8974",
-    "target_path": "kernel/sony/msm8974"
+    "target_path": "kernel/sony/msm8974",
+    "revision": "cm-12.1"
   },
   {
     "repository": "android_device_sony_msm8974-common",
@@ -24,7 +26,9 @@
     "target_path": "hardware/sony/thermanager"
   },
   {
+    "remote": "tm",
     "repository": "proprietary_vendor_sony",
-    "target_path": "vendor/sony"
+    "target_path": "vendor/sony",
+    "revision": "cm-12.1"
   }
 ]
